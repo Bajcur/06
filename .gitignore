@@ -1,0 +1,14 @@
+# execution files #
+*.exe
+*.o
+*.dll
+*.class
+
+# Packages #
+*.zip
+*.rar
+*.7z
+
+# Text files #
+*.asm
+*.hack
