@@ -1,5 +1,5 @@
-output: main.o Code.o FilesManipulation.o Parser.o SymbolTable.o
-	g++ main.o Code.o FilesManipulation.o Parser.o SymbolTable.o -o output
+assembler: main.o Code.o FilesManipulation.o Parser.o SymbolTable.o
+	g++ main.o Code.o FilesManipulation.o Parser.o SymbolTable.o -o assembler
 
 main.o: main.cpp
 	g++ -c main.cpp
@@ -17,4 +17,4 @@ SymbolTable.o: SymbolTable.cpp SymbolTable.h
 	g++ -c SymbolTable.cpp
 
 clean:
-	rm *.o output
+	rm *.o assembler
